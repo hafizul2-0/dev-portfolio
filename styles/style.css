@@ -10,6 +10,9 @@
 
 header{
     background-color: #FFF8F3;
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
     padding-top: 50px;
 }
 .logo h2{
@@ -47,4 +50,65 @@ nav .menu a{
     padding: 18px 35px;
     font-size: 20px;
     color: white;
+    cursor: pointer;
+}
+
+#banner{
+    border: 1px solid red;
+    margin: 46px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .banner-image{
+    height: 676px;
+    width: 584px;
+} */
+
+#banner .banner-content{
+    width: 585px;
+}
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.banner-content .btn-1{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.banner-content .btn-2{
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    padding: 18px 24px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
 }
