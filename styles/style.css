@@ -12,7 +12,7 @@ header{
     background-color: #FFF8F3;
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     padding-top: 50px;
 }
 .logo h2{
@@ -315,7 +315,7 @@ form input[type="email"]{
     font-size: 16px;
     color: #757575;
     border-radius: 5px;
-    margin-bottom: 24px;
+    margin-bottom: 24px;  
 }
 .footer-container form textarea{
     width: 462px;
